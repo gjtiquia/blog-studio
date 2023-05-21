@@ -1,11 +1,47 @@
-# Sanity Blogging Content Studio
+# GJ's Blog - Content Studio
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+Content studio for [GJ's blog](https://blog-gjtiquia.netlify.app) built with [Sanity](https://www.sanity.io/), a Headless Content Management System (CMS).
 
-Now you can do the following things:
+The content studio is currently hosted [here](https://blog-gjtiquia.sanity.studio/) for managing blog content.
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- Check out the example frontend: [React/Next.js](https://github.com/sanity-io/tutorial-sanity-blog-react-next)
-- [Read the blog post about this template](https://www.sanity.io/blog/build-your-own-blog-with-sanity-and-next-js?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+## Description
+
+[Sanity Studio](https://www.sanity.io/docs/sanity-studio) is used as the content studio for GJ's blog.
+
+All content is saved in the [Sanity Content Lake](https://www.sanity.io/docs/datastore).
+
+Only authorized users are allowed to manage blog contents.
+
+## Instructions
+
+### Development
+
+Install the required packages with the following command:
+
+```bash
+npm install
+```
+
+Start a development server with the following command:
+
+```bash
+npm run dev
+```
+
+### Deployment
+
+Only authorized users are allowed to deploy to Sanity.
+
+Log in with the following command:
+
+```bash
+npx sanity login
+```
+
+Deploy to Sanity with the following command:
+
+```bash
+npx sanity deploy
+```
+
+Read more about deploying Sanity Studio [here](https://www.sanity.io/docs/deployment#bd4e07db3e37).
