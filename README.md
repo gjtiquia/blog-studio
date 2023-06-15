@@ -4,6 +4,8 @@ Content studio for [GJ's blog](https://blog.gjtiquia.com) built with [Sanity](ht
 
 The content studio is currently hosted [here](https://blog-gjtiquia.sanity.studio/) for managing blog content.
 
+The source code for the frontend website built with Astro can be found [here](https://github.com/gjtiquia/blog-website).
+
 ## Description
 
 [Sanity Studio](https://www.sanity.io/docs/sanity-studio) is used as the content studio for GJ's blog.
