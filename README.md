@@ -1,6 +1,6 @@
 # GJ's Blog - Content Studio
 
-Content studio for [GJ's blog](https://blog-gjtiquia.netlify.app) built with [Sanity](https://www.sanity.io/), a Headless Content Management System (CMS).
+Content studio for [GJ's blog](https://blog.gjtiquia.com) built with [Sanity](https://www.sanity.io/), a Headless Content Management System (CMS).
 
 The content studio is currently hosted [here](https://blog-gjtiquia.sanity.studio/) for managing blog content.
 
